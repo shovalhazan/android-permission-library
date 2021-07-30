@@ -25,6 +25,8 @@ For example :
 
 2)If you are interested in the case of deny ask again until allow:checkAndRequestPhonePermission should be exercised in onRequestPermissionsResult.
 3)In the case of deny and do not ask me again to refer to the settings once:askForSettingPermission must be realized in the onRequestPermissionsResult.(after 1)
+For example :
+
    @Override
     public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
