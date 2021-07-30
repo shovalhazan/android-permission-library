@@ -44,7 +44,7 @@ GRADLE:<br />
 
 Step 1. Add the JitPack repository to your build file<br />
 
-allprojects {
+	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
@@ -53,7 +53,7 @@ allprojects {
   
  Step 2. Add the dependency<br />
 
- dependencies {
+ 	dependencies {
 	        implementation 'com.github.shovalhazan:android-permission-library:version'
 	}
   
